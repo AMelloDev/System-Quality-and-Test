@@ -1,12 +1,12 @@
-**📘 Projeto IMC – API REST com Spring Boot**
+**📘 Projeto IMC – API REST com Spring Boot, feita com JAVA, utilizando Junit como teste unitário e Jmeter para teste de carga**
 Este projeto disponibiliza cálculos relacionados à saúde por meio de endpoints REST desenvolvidos em Spring Boot.
 
-Start the pring boot server:
+Iniciando o servidor SpringBoot:
 mvn spring-boot:run
 
-Use the Rest adresses to send the values and receive the responses from each method on the browser:
+Utilize os endereços REST para enviar os valores e receber as respostas de cada método no navegador:
 
-Address to Body Mass Index:
+Endereço para imc:
 http://localhost:8080/api/imc/calcular?peso=70&altura=1.75
 
 - Entrada esperada: peso (double), altura(double)
